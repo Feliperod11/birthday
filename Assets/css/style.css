@@ -1,0 +1,171 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(45deg, #ad75c4, #cf47bd);
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    max-width: 100%;
+}
+
+#birthday {
+    margin: auto;
+    margin-top: 2px;
+    padding: 3px;
+    max-width: 90%;
+    border-radius: 3%;
+    border: 3px solid violet;
+    background-color: rgb(165, 77, 173);
+}
+
+#birthday_tittle {
+    margin-top: 25px;
+    text-align: center;
+}
+
+#birthday_tittle h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 45px;
+    font-family: 'Caveat', cursive;
+    text-shadow: 2px 4px 10px black;
+    color: violet;
+}
+
+#birthday_descr {
+    margin-top: 25px;
+    padding: 15px;
+    font-size: 23px;
+    text-align: justify;
+    color: white;
+    text-indent: 20px;
+}
+
+#details {
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    color: violet;
+    text-shadow: 2px 4px 10px black;
+}
+
+#details h1 {
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+#sound {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#yourname {
+    margin: auto;
+    margin-top: 3px;
+    border-radius: 3%;
+    border: 3px solid violet;
+    padding: 3px;
+    max-width: 90%;
+    background-color: rgb(165, 77, 173);
+}
+
+#yourname_tittle {
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    color: violet;
+    text-shadow: 2px 4px 10px black;
+}
+
+#yourname_tittle h1 {
+    font-size: 45px;
+}
+
+#yourname_logo {
+    text-align: center;
+}
+
+#yourname_logo img {
+    max-width: 90%;
+}
+
+#yourname_descr {
+    margin-top: 25px;
+    padding: 15px;
+    font-size: 23px;
+    text-align: justify;
+    color: white;
+    margin-bottom: 25px;
+    text-indent: 20px;
+}
+
+#result {
+    margin: auto;
+    margin-top: 3px;
+    border-radius: 3%;
+    border: 3px solid violet;
+    padding: 3px;
+    max-width: 90%;
+    background-color: rgb(165, 77, 173);
+}
+
+#result_tittle {
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    color: violet;
+    text-shadow: 2px 4px 10px black;
+}
+
+#result_tittle h1 {
+    font-size: 45px;
+}
+
+#result_logo {
+    text-align: center;
+}
+
+#result_logo img {
+    max-width: 50%;
+}
+
+#results_descr {
+    margin-top: 25px;
+    padding: 15px;
+    font-size: 23px;
+    text-align: justify;
+    color: white;
+    margin-bottom: 25px;
+    text-indent: 20px;
+}
+
+#image_descr {
+    text-align: center;
+}
+
+#image_descr img {
+    max-width: 90%;
+    margin-bottom: 25px;
+}
+
+#birthday_rafa {
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    color: violet;
+    text-shadow: 2px 4px 10px black;
+}
+
+#birthday_rafa h1 {
+    font-size: 45px;
+}
+
+@media screen and (max-width: 460px) {
+
+    #birthday_tittle h1, #yourname_tittle h1, #result_tittle h1, #birthday_rafa h1, #details h1 {
+        font-size: 40px;
+    }
+
+    #birthday_descr, #yourname_descr, #results_descr {
+        font-size: 19px;
+    }
+}
